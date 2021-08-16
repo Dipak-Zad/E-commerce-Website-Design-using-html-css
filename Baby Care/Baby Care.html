@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar mart</title>
+    
+    <link rel="stylesheet" type="text/css" href="Baby Care.css">
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="/imgs/favicon.ico" type="image/x-icon">
+
+    <!--google fonts (font-family: 'Roboto', sans-serif;)-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/67c66657c7.js"></script>
+</head>
+<body>
+    <!--header-->
+        <!--navbar-->
+        <input type="checkbox" id="check">
+        <nav>
+            <!--topnav-->
+            <div class="topnav" id="top-nav">
+                <div class="icon"><a href="/index.html"><img class="logo" src="/imgs/logo-light.png"></a></div>
+                <div class="search_box">
+                    <input class="search_bar" type="search">
+                    <span class="fa fa-search"></span>
+                </div>
+                <ul class="ulist">
+                    <li class="litem"><a href="#">+91 12345 67890</a></li>
+                    <li class="litem"><a class="login" href="/Reg.html">Login/Reg</a></li>
+                </ul>
+                <label for="check" class="bar">
+                    <div class="cart1"><a href="/Cart.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                        </svg></a>
+                    </div>
+                    <span class="fa fa-bars" id="bars"></span>
+                    <span class="fa fa-times" id="times"></span>
+                </label>
+            </div>
+            <!--botnav-->
+            <div class="botnav">
+                <ul class="cate">
+                    <li><a href="/Baby Care/Baby Care.html">Baby Care</a>
+                        <ul class="sub-cate">
+                            <li><a href="/Baby Care/Baby Care.html">Baby Care</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/Beverages/Beverages.html">Beverages</a>
+                        <ul class="sub-cate">
+                            <li><a href="/Beverages/Aerated Drinks.html">Aerated Drinks</a></li>
+                            <li><a href="/Beverages/Non Aerated Drinks.html">Non-Aerated Drinks</a></li>
+                            <li><a href="/Beverages/Juice.html">Juice</a></li>
+                            <li><a href="/Beverages/Supplements.html">Health Drinks and Supplements</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/Dairy & Bakery/Dairy and Bakery.html">Dairy and Bakery</a>
+                        <ul class="sub-cate">
+                            <li><a href="/Dairy & Bakery/Dairy.html">Dairy</a></li>
+                            <li><a href="/Dairy & Bakery/Bakery.html">Breads, Buns and Toast</a></li>
+                            <li><a href="/Dairy & Bakery/Cheese.html">Paneer, Ghee and Cheese</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/Fruits & Vegies/Fruits and Vegies.html">Fruits and Vegetables</a>
+                        <ul class="sub-cate">
+                            <li><a href="/Fruits & Vegies/Fruits.html">Fresh Fruits</a></li>
+                            <li><a href="/Fruits & Vegies/Vegies.html">Fresh Vegetables</a></li>
+                            <li><a href="/Fruits & Vegies/Herbs.html">Herbs and Seasonings</a></li>
+                            <li><a href="/Fruits & Vegies/Exotic.html">Exotic Fruits and Vegetables</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/Home Care/Home Care.html">Home Care</a>
+                        <ul class="sub-cate">
+                            <li><a href="/Home Care/Detergents.html">Detergents and Soaps</a></li>
+                            <li><a href="/Home Care/Insecticides.html">Insecticides and Spray</a></li>
+                            <li><a href="/Home Care/Cleanser.html">Cleanser</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/Personal Care/Personal Care.html">Personal Care</a>
+                        <ul class="sub-cate">
+                            <li><a href="/Personal Care/Hair Care.html">Hair Care</a></li>
+                            <li><a href="/Personal Care/Skin Care.html">Skin Care</a></li>
+                            <li><a href="/Personal Care/Oral Care.html">Oral Care</a></li>
+                            <li><a href="/Personal Care/Deos.html">Deos and Fragnances</a></li>
+                            <li><a href="/Personal Care/Bathing.html">Bath and Handwashes</a></li>
+                            <li><a href="/Personal Care/Men.html">Mens Groomings</a></li>
+                            <li><a href="/Personal Care/Women.html">Feminine hygiene</a></li>
+                            <li><a href="/Personal Care/Health.html">Healtn wellness</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/Snacks/Snacks and Packed food.html">Snacks and Packed food</a>
+                        <ul class="sub-cate">
+                            <li><a href="/Snacks/Snacks.html">Snacks</a></li>
+                            <li><a href="/Snacks/Packed food.html">Packed foods</a></li>
+                            <li><a href="/Snacks/Chocolates.html">Chocolates, Jelly and Candies</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/Staples/Staples.html">Staples</a>
+                        <ul class="sub-cate">
+                            <li><a href="/Staples/Grains.html">Rice, Grains and Pulses</a></li>
+                            <li><a href="/Staples/Flours.html">Flours(ATTA) and Proccessed Grains</a></li>
+                            <li><a href="/Staples/Accompaniments.html">Accompaniments</a></li>
+                            <li><a href="/Staples/Dry Fruits.html">Dry Fruits</a></li>
+                            <li><a href="/Staples/Edible oil.html">Edible Oils</a></li>
+                            <li><a href="/Staples/Baking.html">Baking and Dessert Preparation</a></li>
+                            <li><a href="/Staples/Others.html">Others</a></li>
+                            <li><a href="/Staples/Non edible.html">Non-edible Oils</a></li>
+                            <li><a href="/Staples/Spices.html">Ground Spices</a></li>
+                            <li><a href="/Staples/Salt and sugar.html">Salt and Sugar</a></li>
+                            <li><a href="/Staples/Packed masala.html">Packed Masala</a></li>
+                        </ul>
+                    </li>
+                    <li class="cart"><a href="/Cart.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16"  href="#">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                        </svg></a>
+                    </li>
+                </ul>
+            </div>
+            <!--/mobnav-->
+            <div class="mobnav">
+                <label for="btn" class="button"><img class="logo1" src="/imgs/logo-light.png">
+                    <div class="icons"><a href="Cart.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16"  href="#">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                        </svg></a>
+                        <span class="fa fa-bars" id="bars"></span>
+                    </div>
+                </label>
+                <input type="checkbox" id="btn">
+                <ul class="menu">
+                    <li>
+                        <label for="btn-2" class="first">Baby Care
+                            <span class="fas fa-caret-down"></span>
+                        </label>
+                        <input type="checkbox" id="btn-2">
+                        <ul>
+                            <li><a href="/Baby Care/Baby Care.html">Baby Care</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label for="btn-3" class="second">Beverages
+                            <span class="fas fa-caret-down"></span>
+                        </label>
+                        <input type="checkbox" id="btn-3">
+                        <ul>
+                            <li><a href="/Beverages/Aerated Drinks.html">Aerated Drinks</a></li>
+                            <li><a href="/Beverages/Non Aerated Drinks.html">Non-Aerated Drinks</a></li>
+                            <li><a href="/Beverages/Juice.html">Juice</a></li>
+                            <li><a href="/Beverages/Supplements.html">Health Drinks and Supplement</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label for="btn-4" class="third">Dairy and Bakery
+                            <span class="fas fa-caret-down"></span>
+                        </label>
+                        <input type="checkbox" id="btn-4">
+                        <ul>
+                            <li><a href="/Dairy & Bakery/Dairy.html">Dairy</a></li>
+                            <li><a href="/Dairy & Bakery/Bakery.html">Breads, Buns and Toast</a></li>
+                            <li><a href="/Dairy & Bakery/Cheese.html">Paneer, Ghee and Cheese</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label for="btn-5" class="fourth">Fruits and Vegetables
+                            <span class="fas fa-caret-down"></span>
+                        </label>
+                        <input type="checkbox" id="btn-5">
+                        <ul>
+                            <li><a href="/Fruits & Vegies/Fruits.html">Fresh Fruits</a></li>
+                            <li><a href="/Fruits & Vegies/Vegies.html">Fresh Vegetables</a></li>
+                            <li><a href="/Fruits & Vegies/Herbs.html">Herbs and Seasonings</a></li>
+                            <li><a href="/Fruits & Vegies/Exotic.html">Exotic Fruits and Vegetables</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label for="btn-6" class="fifth">Home Care
+                            <span class="fas fa-caret-down"></span>
+                        </label>
+                        <input type="checkbox" id="btn-6">
+                        <ul>
+                            <li><a href="/Home Care/Detergents.html">Detergents and Soaps</a></li>
+                            <li><a href="/Home Care/Insecticides.html">Insecticides and Spray</a></li>
+                            <li><a href="/Home Care/Cleanser.html">Cleanser</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label for="btn-7" class="sixth">Personal Care
+                            <span class="fas fa-caret-down"></span>
+                        </label>
+                        <input type="checkbox" id="btn-7">
+                        <ul>
+                            <li><a href="/Personal Care/Hair Care.html">Hair Care</a></li>
+                            <li><a href="/Personal Care/Skin Care.html">Skin Care</a></li>
+                            <li><a href="/Personal Care/Oral Care.html">Oral Care</a></li>
+                            <li><a href="/Personal Care/Deos.html">Deos and Fragnances</a></li>
+                            <li><a href="/Personal Care/Bathing.html">Bath and Handwashes</a></li>
+                            <li><a href="/Personal Care/Men.html">Mens Groomings</a></li>
+                            <li><a href="/Personal Care/Women.html">Feminine hygiene</a></li>
+                            <li><a href="/Personal Care/Health.html">Healtn wellness</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label for="btn-8" class="seventh">Snacks and Packed foods
+                            <span class="fas fa-caret-down"></span>
+                        </label>
+                        <input type="checkbox" id="btn-8">
+                        <ul>
+                            <li><a href="/Snacks/Snacks.html">Snacks</a></li>
+                            <li><a href="/Snacks/Packed food.html">Packed foods</a></li>
+                            <li><a href="/Snacks/Chocolates.html">Chocolates, Jelly and Candies</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label for="btn-9" class="eighth">Staples
+                            <span class="fas fa-caret-down"></span>
+                        </label>
+                        <input type="checkbox" id="btn-9">
+                        <ul>
+                            <li><a href="/Staples/Grains.html">Rice, Grains and Pulses</a></li>
+                            <li><a href="/Staples/Flours.html">Flours(ATTA) and Proccessed Grains</a></li>
+                            <li><a href="/Staples/Accompaniments.html">Accompaniments</a></li>
+                            <li><a href="/Staples/Dry Fruits.html">Dry Fruits</a></li>
+                            <li><a href="/Staples/Edible oil.html">Edible Oils</a></li>
+                            <li><a href="/Staples/Baking.html">Baking and Dessert Preparation</a></li>
+                            <li><a href="/Staples/Others.html">Others</a></li>
+                            <li><a href="/Staples/Non edible.html">Non-edible Oils</a></li>
+                            <li><a href="/Staples/Spices.html">Ground Spices</a></li>
+                            <li><a href="/Staples/Salt and sugar.html">Salt and Sugar</a></li>
+                            <li><a href="/Staples/Packed masala.html">Packed Masala</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/Reg.html">Login or Register</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--/navbar-->
+    <!--/header-->
+    <!--carousel-->
+    <!--<div id="slider">
+        <figure>
+            <img src="./imgs/slider1.jpg">
+            <img src="./imgs/slider2.jpg">
+            <img src="./imgs/slider1.jpg">
+            <img src="./imgs/slider2.jpg">
+            <img src="./imgs/slider1.jpg">
+        </figure>
+    </div>-->
+    <!--/carousel-->
+    <!--grid-->
+    <header>
+        <h1 class="section2Header">Baby Care</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="/products/product.html">
+                    <div class="box">
+                        <div class="off">0.66%</div>
+                        <div class="icon1">
+                            <a href="/products/product.html"><img src="/imgs/heart.png" width="150px" height="150px"></a>
+                        </div>
+                        <div class="info">
+                            <div class="amt"><button>-</button><input type="text" placeholder="Qnty"><button>+</button></div>
+                            <div class="detail"><a class="name" href="/products/product.html">Johnson milk+rice lotion <br>50 ml MRP: <del>60</del> 55</a></div>
+                            <div class="bttn"><button class="bn" onclick="window.location.href = '/Cart.html';">Buy now</button><button class="ad">Add to cart</button></div>
+                        </div>
+                        <div class="detail1"><a class="name" href="/products/product.html">Johnson milk+rice lotion 50 ml MRP: <del>60</del> 55</a></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--/grid-->  
+    <!--footer-->
+    <hr>
+    <footer class="footy">
+        <div class="row">
+            <div class="col-6">
+                <div class="leftSide-col">
+                    <ul class="lSide">
+                        <li><img src="/imgs/stellar footer.jpg" alt="Stellar techno"></li>
+                        <li>Powered by Stellar Techno</li>
+                        <li>stellartechno56@gmail.com</li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                                <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+                                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                            </svg>    
+                            <a class="mob" href="tel:+917208106107">7400209818</a>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                            </svg>
+                            8:00 am - 8:00 pm
+                        </li>
+                    </ul>
+                    <a target="#blank" href="https://www.instagram.com/stellar_techno/"><img class="imlnk" src="/imgs/insta logo.png" height="30px" width="30px"></a>
+			        <a target="#blank" href="https://mobile.twitter.com/stellar_techno"><img class="imlnk" src="/imgs/twit logo.png" height="30px" width="30px"></a>
+			        <a target="#blank" href="https://m.facebook.com/Stellar-Techno-100754365571545/"><img class="imlnk" src="/imgs/fb logo.png" height="30px" width="30px"></a>
+			        <a target="#blank" href="https://in.pinterest.com/stellar_techno/_saved/"><img class="imlink" src="/imgs/pinterest logo.png" height="31px" width="31px"></a>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="rightSide-col">
+                    <ul class="rSide">
+                        <li><img src="/imgs/logo-light.png" alt="Stellar freshmart"></li>
+                        <li>stellarfresh@gmail.com</li>
+                        <li>support@stellarfreshmart.com</li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                            <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+                            <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                            </svg>
+                            <a class="mob" href="tel:+917208106107">8652770611</a>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                            </svg>
+                            8:00 am - 8:00 pm
+                        </li>
+                    </ul>
+                    <a target="#blank" href="https://www.instagram.com/stellar_freshmart/"><img class="imlnk" src="/imgs/insta logo.png" height="30px" width="30px"></a>
+			        <a target="#blank" href="https://mobile.twitter.com/stellar_techno"><img class="imlnk" src="/imgs/twit logo.png" height="30px" width="30px"></a>
+			        <a target="#blank" href="https://m.facebook.com/Stellar-Freshmart-105191268450959/"><img class="imlnk" src="/imgs/fb logo.png" height="30px" width="30px"></a>
+			        <a target="#blank" href="https://in.pinterest.com/Stellar_freshmart/_saved/"><img class="imlink" src="/imgs/pinterest logo.png" height="31px" width="31px"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="end">
+        <p>Copyright © 2021 <a href="index.html">Stellarfreshmart</a>. All Right Reserved. | <a href="terms-condition.html">Terms and Condition</a></p>
+        <img src="/imgs/payment.png" alt="payment icon">
+    </div>
+    <!--footer-->
+    <!--script--><!--/script-->   
+</body>
+</html>
